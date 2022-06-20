@@ -6,5 +6,5 @@ soma = x + y
 print(soma >= y) # relacional
 print(soma <= x)
 print(soma == y)
-print(x == z and z== y) # logico
+print(x == z and z == y) # logico
 print(x == y or y == z)

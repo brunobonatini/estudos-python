@@ -3,7 +3,7 @@ y = 20
 
 if x == y:
     print('os numeros sao iguais')
-elif x < y:
-    print('x é menor que y') # ele mosta este resultado pois é a primeira condição verdadeira encontrada
+elif x > y:  # senão se
+    print('x é menor que y')
 else:
     print('os numeros sao diferentes')

@@ -5,6 +5,10 @@
 
 #print('O digito da dezena é: {}'.format(dezena))
 
-numero = input('Digite um numero inteiro: ')
+numero = int(input('Digite um número inteiro: '))
+dezena = (numero // 10) % 10
 
-print('O digito da dezena é igual a:',(numero[len(numero)-2]))
+if (numero > 0):
+    print('O dígito das dezenas é {}.'.format(dezena))
+else:
+    (print('O dígito das dezenas é 0.'))
